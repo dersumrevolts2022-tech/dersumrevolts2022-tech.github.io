@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Informações sobre o UDS Backup VPS, ferramenta interna de cópias de segurança criptografadas do App UDS para uma conta Google Drive autorizada.">
+  <meta name="referrer" content="no-referrer">
+  <title>UDS Backup VPS — Informações</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+  <header>
+    <a class="brand" href="index.html"><span>UDS</span> Backup VPS</a>
+    <nav aria-label="Páginas"><a href="privacidade.html">Privacidade</a><a href="termos.html">Condições de uso</a></nav>
+  </header>
+  <main id="conteudo">
+    <p class="eyebrow">App UDS · Continuidade dos dados</p>
+    <h1>Cópias de segurança para o App UDS.</h1>
+    <p class="lead">O UDS Backup VPS é uma ferramenta interna para guardar cópias criptografadas do App UDS em uma conta Google Drive escolhida e autorizada pelo administrador.</p>
+    <h2>Como funciona</h2>
+    <p>Após a configuração, o programa utiliza o backup local concluído na VPS, confere os arquivos e envia uma cópia criptografada para uma pasta exclusiva no Google Drive. O envio inclui o banco de dados, os anexos e os arquivos de aplicação necessários à recuperação.</p>
+    <p>O programa verifica a integridade dos envios e realiza um teste inicial de download e decifragem. A rotina foi configurada para manter até sete cópias completas na pasta gerenciada.</p>
+    <h2>Acesso à conta Google</h2>
+    <p>A autorização usa a permissão <strong>drive.file</strong>, limitada aos arquivos e pastas criados ou explicitamente autorizados para esta ferramenta. A rotina usa essa permissão para criar backups, conferir e recuperar os arquivos enviados e remover suas próprias cópias antigas.</p>
+    <p>O acesso é solicitado ao administrador responsável pela conta de backup. Os funcionários continuam usando as contas existentes do App UDS.</p>
+    <div class="note"><strong>Uso interno.</strong> Esta página apresenta a ferramenta de backup. A conexão à conta Google é realizada pelo assistente instalado na VPS.</div>
+    <h2>Privacidade e contato</h2>
+    <p>Leia a <a href="privacidade.html">Política de Privacidade</a> para entender o tratamento dos dados e as opções de revogação e exclusão. Consulte também as <a href="termos.html">Condições de uso</a>.</p>
+    <p>Suporte: <a href="mailto:dersumrevolts2022@gmail.com">dersumrevolts2022@gmail.com</a>.</p>
+  </main>
+  <footer>UDS Backup VPS · Informações atualizadas em 17 de outubro de 2026.</footer>
+</body>
+</html>
